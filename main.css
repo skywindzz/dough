@@ -1,0 +1,47 @@
+html, body, .container {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	border: 0;
+	overflow: hidden;
+} 
+
+/* navigation */
+
+.nav {
+	margin-top: 5px;
+}
+
+.centered {
+	margin-left: 35%;
+}
+/* Carousel */ 
+
+
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.caro {
+	width: 100%;
+	height: auto;
+}
+.center {
+	height: 70%;
+}
+
+.large {
+	font-size: 80px;
+}
+
+.small {
+	font-size: 20px;
+}
+
+.right.carousel-control, .left.carousel-control {
+    opacity: 0;
+    filter:alpha(opacity=0);
+} 
